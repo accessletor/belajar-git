@@ -11,4 +11,11 @@ function displayText() {
   
   // Atur teks displayArea menjadi tebal (bold)
   displayArea.style.fontWeight = "bold";
+
+  Swal.fire({
+    icon: 'success',
+    title: 'Teks berhasil ditampilkan!',
+    showConfirmButton: false,
+    timer: 1500  // Tutup SweetAlert setelah 1.5 detik
+});
 }
